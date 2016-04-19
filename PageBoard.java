@@ -20,8 +20,7 @@ public class PageBoard
     public PageBoard(Process PCB, int SizeOfProgram)
     {
         NameOfBoard = PCB.processID;
-        PageBoardForProcess = new Page[SizeOfProgram]; //Utworzenie wystarczająco dużej tablicy stonnic, rzutowanie na int bo Maciej zwraca lona i nie da sie inaczej
-        
+        PageBoardForProcess = new Page[SizeOfProgram]; //Utworzenie wystarczająco dużej tablicy stonnic
         for(int i = 0; i < SizeOfProgram; i++)
         {
             PageBoardForProcess[i] = new Page();
