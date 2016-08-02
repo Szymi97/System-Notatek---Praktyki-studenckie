@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana;
+    background-color: #F4C430;
+    font-size:15px;
+}   
+
+div
+{
+    background-color: #FAFAE7;
+    box-shadow:4px 4px 0 black;
+    padding: 5px  5px 5px 5px;
+    min-width:400px;
+    max-height:300px;
+    min-height:100px;
+    overflow: auto;
+    word-wrap:break-word;
+    max-width:75%; 
+}
+
+input
+{
+   font-size:17px;
+}
+
+textarea
+{
+    font-size:15px;
+}
